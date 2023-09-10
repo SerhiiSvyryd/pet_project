@@ -1,0 +1,69 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(93, 215, 239);
+}
+
+.TodoWrapper {
+  background: rgb(36, 102, 234);
+}
+
+.title {
+  text-align: center;
+}
+
+.ToDoForm {
+  margin: 5% 0;
+  display: flex;
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid black;
+  padding: 0 10%;
+}
+
+.todo-btn {
+  margin: 2% 6%;
+  padding: 1% 8%;
+  border: none;
+  background: rgb(43, 75, 218);
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.ToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 0;
+  cursor: pointer;
+}
+
+.icons {
+  width: 100%;
+  padding-left: 12%;
+}
+
+.fa-trash {
+  padding-left: 12%;
+}
+
+p {
+  width: 100%;
+  cursor: pointer;
+}
